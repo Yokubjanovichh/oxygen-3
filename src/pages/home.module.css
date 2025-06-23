@@ -226,7 +226,8 @@ html {
 
 .right {
   width: 7.2rem;
-  height: 100dvh;
+  height: auto;
+  max-height: 100%;
   border-left: 8px solid rgba(16, 188, 43, 1);
   overflow: hidden;
   display: flex;
