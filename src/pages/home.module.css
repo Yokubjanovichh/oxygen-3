@@ -1,12 +1,3 @@
-html,
-body,
-#root {
-  margin: 0;
-  padding: 0;
-  height: auto;
-  min-height: 100%;
-}
-
 html {
   font-size: calc(100vw / (1920 / 10));
 }
@@ -29,7 +20,7 @@ html {
   width: 100%;
   background: white;
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .left {
@@ -39,6 +30,7 @@ html {
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 100% 42rem;
+  border-right: 0.8rem solid rgba(16, 188, 43, 1);
 }
 
 .navbar {
@@ -71,11 +63,12 @@ html {
 .price {
   font-family: "TT Firs Neue";
   font-weight: 800;
-  font-size: 9.9rem;
+  font-size: 7.5rem;
+  line-height: 3.3rem;
   line-height: 100%;
   letter-spacing: -6%;
   text-transform: uppercase;
-  padding-left: 4rem;
+  padding-left: 4.9rem;
   background: linear-gradient(92.86deg, #61f677 -6.54%, #10bc2b 96.73%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -115,7 +108,6 @@ html {
   transition: background-position 0.5s ease-in-out;
 
   animation: gradientWipe 3s infinite ease;
-  margin-top: 1.5rem;
 }
 
 /* 💫 Animation */
@@ -141,7 +133,7 @@ html {
 }
 
 .businessDirektor {
-  margin-top: 2.3rem;
+  margin-top: 1.5rem;
   padding-left: 5.4rem;
   display: flex;
   align-items: flex-start;
@@ -235,10 +227,8 @@ html {
 }
 
 .right {
-  width: 7.2rem;
-  height: auto;
-  max-height: 100%;
-  border-left: 8px solid rgba(16, 188, 43, 1);
+  width: 6.4rem;
+  height: 100%;
   overflow: hidden;
   display: flex;
   writing-mode: vertical-rl;
