@@ -1,3 +1,12 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  min-height: 100%;
+}
+
 html {
   font-size: calc(100vw / (1920 / 10));
 }
