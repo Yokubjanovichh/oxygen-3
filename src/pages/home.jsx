@@ -54,17 +54,17 @@ export default function Home() {
             imkoniyati
           </p>
 
+          <p className={styles.bodyText2}>
+            30-iyunda bo’ladigan Bepul Online Taqdimotda qatnashib maxsus
+            chegirmaga ega bo’ling!
+          </p>
+
           <button
             onClick={() => setIsModalOpen(true)}
             className={styles.freeJoinBtn}
           >
             <span> Bepul qatnashish</span>
           </button>
-
-          <p className={styles.bodyText2}>
-            30-iyunda bo’ladigan Bepul Online Taqdimotda qatnashib maxsus
-            chegirmaga ega bo’ling!
-          </p>
 
           <div className={styles.businessDirektor}>
             <div className={styles.avatar}>

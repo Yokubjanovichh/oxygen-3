@@ -115,6 +115,7 @@ html {
   transition: background-position 0.5s ease-in-out;
 
   animation: gradientWipe 3s infinite ease;
+  margin-top: 1.5rem;
 }
 
 /* 💫 Animation */
@@ -140,7 +141,7 @@ html {
 }
 
 .businessDirektor {
-  margin-top: 1.5rem;
+  margin-top: 2.3rem;
   padding-left: 5.4rem;
   display: flex;
   align-items: flex-start;
