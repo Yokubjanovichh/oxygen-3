@@ -60,7 +60,10 @@ export default function Home() {
           </p>
 
           <button
-            onClick={() => setIsModalOpen(true)}
+            // onClick={() => setIsModalOpen(true)}
+            onClick={() =>
+              window.open("https://t.me/+KSqebVwy3z81NmM6", "_blank")
+            }
             className={styles.freeJoinBtn}
           >
             <span> Bepul qatnashish</span>
@@ -107,7 +110,7 @@ export default function Home() {
         </div>
       </div>
 
-      {isModalOpen && (
+      {/* {isModalOpen && (
         <div
           className={styles.modalOverlay}
           onClick={() => setIsModalOpen(false)}
@@ -169,7 +172,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 }
